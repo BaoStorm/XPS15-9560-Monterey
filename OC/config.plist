@@ -297,6 +297,8 @@
 		</array>
 		<key>Quirks</key>
 		<dict>
+			<key>EnableForAll</key>
+			<true/>
 			<key>FadtEnableReset</key>
 			<false/>
 			<key>NormalizeHeaders</key>
@@ -331,6 +333,8 @@
 			<false/>
 			<key>DiscardHibernateMap</key>
 			<true/>
+			<key>EnableForAll</key>
+			<true/>
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
@@ -351,6 +355,8 @@
 			<integer>0</integer>
 			<key>RebuildAppleMemoryMap</key>
 			<false/>
+			<key>ResizeAppleGpuBars</key>
+			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
 			<true/>
 			<key>SignalAppleOS</key>
@@ -445,7 +451,7 @@
 				<key>BundlePath</key>
 				<string>Lilu.kext</string>
 				<key>Comment</key>
-				<string>Lilu</string>
+				<string>V1.6.1 | Lilu</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -481,7 +487,7 @@
 				<key>BundlePath</key>
 				<string>VirtualSMC.kext</string>
 				<key>Comment</key>
-				<string>SMC</string>
+				<string>V1.3.0 | SMC</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -499,7 +505,7 @@
 				<key>BundlePath</key>
 				<string>AppleALC.kext</string>
 				<key>Comment</key>
-				<string>Audio</string>
+				<string>V1.7.3 | Audio</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -517,7 +523,7 @@
 				<key>BundlePath</key>
 				<string>FakePCIID.kext</string>
 				<key>Comment</key>
-				<string>Fake PCI ID</string>
+				<string>V1.3.15 | Fake PCI ID</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -535,7 +541,7 @@
 				<key>BundlePath</key>
 				<string>FakePCIID_Intel_HDMI_Audio.kext</string>
 				<key>Comment</key>
-				<string>Fake PCI HDMI AUDIO</string>
+				<string>V1.3.15 | Fake PCI HDMI AUDIO</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -553,7 +559,7 @@
 				<key>BundlePath</key>
 				<string>SMCBatteryManager.kext</string>
 				<key>Comment</key>
-				<string>Battery</string>
+				<string>V1.3.0 | Battery</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -571,7 +577,7 @@
 				<key>BundlePath</key>
 				<string>SMCLightSensor.kext</string>
 				<key>Comment</key>
-				<string>Light</string>
+				<string>V1.3.0 | Light</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -589,7 +595,7 @@
 				<key>BundlePath</key>
 				<string>SMCProcessor.kext</string>
 				<key>Comment</key>
-				<string>Processor</string>
+				<string>V1.3.0 | Processor</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -607,7 +613,7 @@
 				<key>BundlePath</key>
 				<string>SMCDellSensors.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>V1.3.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -625,7 +631,7 @@
 				<key>BundlePath</key>
 				<string>SMCSuperIO.kext</string>
 				<key>Comment</key>
-				<string>IODevice</string>
+				<string>V1.3.0 | IODevice</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -643,7 +649,7 @@
 				<key>BundlePath</key>
 				<string>HWPEnabler.kext</string>
 				<key>Comment</key>
-				<string>HWP</string>
+				<string>V1.2 | HWP</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -661,7 +667,7 @@
 				<key>BundlePath</key>
 				<string>CodecCommander.kext</string>
 				<key>Comment</key>
-				<string>AudioSwitch</string>
+				<string>V2.7.2 | AudioSwitch</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -679,7 +685,7 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 				<key>Comment</key>
-				<string>Graphics</string>
+				<string>V1.5.7 | Graphics</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -697,7 +703,7 @@
 				<key>BundlePath</key>
 				<string>NVMeFix.kext</string>
 				<key>Comment</key>
-				<string>NVMe</string>
+				<string>V1.0.9 | NVMe</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -715,7 +721,7 @@
 				<key>BundlePath</key>
 				<string>USBPorts.kext</string>
 				<key>Comment</key>
-				<string>USBPoartInject</string>
+				<string>V1.0 | USBPoartInject</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -733,7 +739,7 @@
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
 				<key>Comment</key>
-				<string>SetMaxKernel</string>
+				<string>V1.0 | SetMaxKernel</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -751,7 +757,7 @@
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcmNIC_Injector.kext</string>
 				<key>Comment</key>
-				<string>BrcmNICInject</string>
+				<string>V1.0 | BrcmNICInject</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -769,7 +775,7 @@
 				<key>BundlePath</key>
 				<string>AirportBrcmFixup.kext</string>
 				<key>Comment</key>
-				<string>BrcmWifiFix</string>
+				<string>V2.1.3 | BrcmWifiFix</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -787,7 +793,7 @@
 				<key>BundlePath</key>
 				<string>BrcmBluetoothInjector.kext</string>
 				<key>Comment</key>
-				<string>BrcmBTInject</string>
+				<string>V2.6.0 | BrcmBTInject</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -805,7 +811,7 @@
 				<key>BundlePath</key>
 				<string>BlueToolFixup.kext</string>
 				<key>Comment</key>
-				<string>BlueTool</string>
+				<string>V2.6.1 | BlueTool</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -823,7 +829,7 @@
 				<key>BundlePath</key>
 				<string>BrcmFirmwareData.kext</string>
 				<key>Comment</key>
-				<string>BrcmBTFirmware</string>
+				<string>V2.6.0 | BrcmBTFirmware</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -841,7 +847,7 @@
 				<key>BundlePath</key>
 				<string>BrcmPatchRAM3.kext</string>
 				<key>Comment</key>
-				<string>BrcmBTPatch</string>
+				<string>V2.6.0 | BrcmBTPatch</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -859,7 +865,7 @@
 				<key>BundlePath</key>
 				<string>CPUFriend.kext</string>
 				<key>Comment</key>
-				<string>CPU</string>
+				<string>V1.2.4 | CPU</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -877,7 +883,7 @@
 				<key>BundlePath</key>
 				<string>CPUFriendDataProvider.kext</string>
 				<key>Comment</key>
-				<string></string>
+				<string>V1.0.0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -895,7 +901,7 @@
 				<key>BundlePath</key>
 				<string>Sinetek-rtsx.kext</string>
 				<key>Comment</key>
-				<string>SDCard</string>
+				<string>V7 | SDCard</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -913,7 +919,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext</string>
 				<key>Comment</key>
-				<string>PS2Controller</string>
+				<string>V2.2.1 | PS2Controller</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -931,7 +937,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Keyboard.kext</string>
 				<key>Comment</key>
-				<string>Keyboard</string>
+				<string>V2.2.1 | Keyboard</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -949,7 +955,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Mouse.kext</string>
 				<key>Comment</key>
-				<string>Mouse</string>
+				<string>V2.2.1 | Mouse</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -967,7 +973,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooPS2Trackpad.kext</string>
 				<key>Comment</key>
-				<string>Trackpad</string>
+				<string>V2.2.1 | Trackpad</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -985,7 +991,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooI2CServices.kext</string>
 				<key>Comment</key>
-				<string>I2CService</string>
+				<string>V1 | I2CService</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1003,7 +1009,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooGPIO.kext</string>
 				<key>Comment</key>
-				<string>GPIOInterrupt</string>
+				<string>V1.1 | GPIOInterrupt</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1021,7 +1027,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext</string>
 				<key>Comment</key>
-				<string>I2C</string>
+				<string>V2.6.2 | I2C</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1039,7 +1045,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
-				<string>MagicTrackPadEngine</string>
+				<string>V1.1.0 | MagicTrackPadEngine</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1057,7 +1063,7 @@
 				<key>BundlePath</key>
 				<string>VoodooPS2Controller.kext/Contents/PlugIns/VoodooInput.kext</string>
 				<key>Comment</key>
-				<string>MagicTrackPadEngine</string>
+				<string>V1.1.0 | MagicTrackPadEngine</string>
 				<key>Enabled</key>
 				<false/>
 				<key>ExecutablePath</key>
@@ -1075,7 +1081,7 @@
 				<key>BundlePath</key>
 				<string>VoodooI2CHID.kext</string>
 				<key>Comment</key>
-				<string>HIDDevice</string>
+				<string>V1 | HIDDevice</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1093,7 +1099,7 @@
 				<key>BundlePath</key>
 				<string>NoTouchID.kext</string>
 				<key>Comment</key>
-				<string>BlockTouchID</string>
+				<string>V1.0.4 | BlockTouchID</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1111,7 +1117,7 @@
 				<key>BundlePath</key>
 				<string>FeatureUnlock.kext</string>
 				<key>Comment</key>
-				<string>enabling Sidecar, NightShift, AirPlay</string>
+				<string>V1.0.3 | enabling Sidecar, NightShift, AirPlay</string>
 				<key>Enabled</key>
 				<true/>
 				<key>ExecutablePath</key>
@@ -1213,7 +1219,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>SIX/dEdIiwc=</data>
 				<key>Identifier</key>
@@ -1246,15 +1252,19 @@
 			<false/>
 			<key>CustomSMBIOSGuid</key>
 			<true/>
+			<key>CustomPciSerialDevice</key>
+			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
 			<key>DisableLinkeditJettison</key>
-			<false/>
+			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
 			<key>ExtendBTFeatureFlags</key>
 			<true/>
 			<key>ExternalDiskIcons</key>
+			<false/>
+			<key>ForceAquantiaEthernet</key>
 			<false/>
 			<key>ForceSecureBootScheme</key>
 			<false/>
@@ -1317,6 +1327,8 @@
 			<true/>
 			<key>ShowPicker</key>
 			<true/>
+			<key>SkipCustomEntryCheck</key>
+			<true/>
 			<key>TakeoffDelay</key>
 			<integer>10000</integer>
 			<key>Timeout</key>
@@ -1334,8 +1346,8 @@
 			<integer>0</integer>
 			<key>DisplayLevel</key>
 			<integer>0</integer>
-			<key>SerialInit</key>
-			<false/>
+			<key>LogModules</key>
+			<string></string>
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
@@ -1345,12 +1357,8 @@
 		<array/>
 		<key>Security</key>
 		<dict>
-			<key>AllowNvramReset</key>
-			<true/>
 			<key>AllowSetDefault</key>
 			<true/>
-			<key>AllowToggleSip</key>
-			<false/>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>AuthRestart</key>
@@ -1375,6 +1383,40 @@
 			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
+		</dict>
+		<key>Serial</key>
+		<dict>
+			<key>Custom</key>
+			<dict>
+				<key>BaudRate</key>
+				<integer>115200</integer>
+				<key>ClockRate</key>
+				<integer>1843200</integer>
+				<key>DetectCable</key>
+				<false/>
+				<key>ExtendedTxFifoSize</key>
+				<integer>64</integer>
+				<key>FifoControl</key>
+				<integer>7</integer>
+				<key>LineControl</key>
+				<integer>7</integer>
+				<key>PciDeviceInfo</key>
+				<data>/w==</data>
+				<key>RegisterAccessWidth</key>
+				<integer>8</integer>
+				<key>RegisterBase</key>
+				<integer>1016</integer>
+				<key>RegisterStride</key>
+				<integer>1</integer>
+				<key>UseHardwareFlowControl</key>
+				<false/>
+				<key>UseMmio</key>
+				<false/>
+			</dict>
+			<key>Init</key>
+			<false/>
+			<key>Override</key>
+			<false/>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -1590,6 +1632,12 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>PointerPollMask</key>
+			<integer>-1</integer>
+			<key>PointerPollMin</key>
+			<integer>10</integer>
+			<key>PointerPollMax</key>
+			<integer>80</integer>
 			<key>PointerSpeedDiv</key>
 			<integer>1</integer>
 			<key>PointerSpeedMul</key>
@@ -1601,19 +1649,23 @@
 			<integer>18</integer>
 			<key>AudioDevice</key>
 			<string>PciRoot(0x0)/Pci(0x1F,0x3)</string>
-			<key>AudioOut</key>
-			<integer>23</integer>
+			<key>AudioOutMask</key>
+			<integer>1</integer>
 			<key>AudioSupport</key>
 			<false/>
-			<key>MinimumVolume</key>
-			<integer>10</integer>
+			<key>DisconnectHda</key>
+			<false/>
+			<key>MaximumGain</key>
+			<integer>-15</integer>
+			<key>MinimumAssistGain</key>
+			<integer>-30</integer>
+			<key>MinimumAudibleGain</key>
+			<integer>-55</integer>
 			<key>PlayChime</key>
 			<string>Auto</string>
 			<key>ResetTrafficClass</key>
 			<false/>
 			<key>SetupDelay</key>
-			<integer>0</integer>
-			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
 		<key>ConnectDrivers</key>
@@ -1686,6 +1738,8 @@
 			<false/>
 			<key>ProvideConsoleGop</key>
 			<true/>
+			<key>ReconnectGraphicsOnConnect</key>
+			<false/>
 			<key>ReconnectOnResChange</key>
 			<false/>
 			<key>ReplaceTabWithSpace</key>
@@ -1698,6 +1752,8 @@
 			<string>BuiltinGraphics</string>
 			<key>UgaPassThrough</key>
 			<false/>
+			<key>UIScale</key>
+			<integer>-1</integer>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1746,6 +1802,8 @@
 			<false/>
 			<key>EnableVectorAcceleration</key>
 			<false/>
+			<key>EnableVmx</key>
+			<false/>
 			<key>ExitBootServicesDelay</key>
 			<integer>0</integer>
 			<key>ForceOcWriteFlash</key>
@@ -1760,6 +1818,8 @@
 			<false/>
 			<key>RequestBootVarRouting</key>
 			<true/>
+			<key>ResizeGpuBars</key>
+			<integer>-1</integer>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>
